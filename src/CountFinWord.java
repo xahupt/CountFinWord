@@ -3,6 +3,7 @@ public class CountFinWord {
     private int CountFinWord_(String str){
         String[] strings;
         strings = str.split(" ");
+        System.out.println("the last word:"+strings[strings.length-1]);
         return strings[strings.length-1].length();
     }
     public static void main(String[] args){
